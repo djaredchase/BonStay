@@ -1,0 +1,13 @@
+import mongoose from 'mongoose';
+
+mongoose.connect('mongodb://localhost:27017/BonStay', {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+    useUnifiedTopology: true,
+  });
+
+export const returnUpdated = {
+  new: true,
+  runValidators: true
+};
