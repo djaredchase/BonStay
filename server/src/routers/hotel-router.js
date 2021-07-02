@@ -59,4 +59,3 @@ hotelRouter.get('/reviews/:hotelName', async (req, res) => {
         });
     }
 });
-
